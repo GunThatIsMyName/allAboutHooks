@@ -1,29 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+import styled from "styled-components";
+import { Box, Code, Display, Pre } from "../components/styled";
 
 
-# magic here 
+  
 
 const UseInput = () => {
   return (
@@ -31,7 +10,7 @@ const UseInput = () => {
       <Box>
         <Display>
             {/* magic here */}
-            
+
         </Display>
         <Code>
           <Pre>
@@ -49,3 +28,5 @@ const UseInput = () => {
     </>
   );
 };
+
+export default UseInput;
